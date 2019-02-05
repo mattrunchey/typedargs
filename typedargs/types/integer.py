@@ -11,8 +11,8 @@
 #integer type
 
 from builtins import int
-from past.builtins import basestring
-
+#from past.builtins import basestring
+basestring=str
 
 def convert(arg):
     if arg is None:

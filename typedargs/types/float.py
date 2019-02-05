@@ -10,7 +10,7 @@
 
 from builtins import int
 from past.builtins import basestring
-
+basestring=str
 
 def convert(arg):
     if arg is None:

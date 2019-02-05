@@ -12,8 +12,8 @@
 # Simple boolean type
 
 from builtins import str
-from past.builtins import basestring
-
+#from past.builtins import basestring
+basestring=str
 
 def convert(arg, **kwargs):
     if arg is None:

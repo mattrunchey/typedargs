@@ -12,8 +12,8 @@
 
 import ast
 import collections
-from past.builtins import basestring
-
+#from past.builtins import basestring
+basestring=str
 
 class list:  # pylint: disable=C0103
     def __init__(self, valuetype, **kwargs):
